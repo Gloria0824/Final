@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="navbar">
+      <div class="nav-container">
+        <div class="front">
+          <a href="#">
+            <img src="pic/logo.svg" alt="logo" class="logo">
+          </a>
+        </div>
+      
+
+        <ul class="tail">
+          <li><a href="#">服務項目</a></li>
+          <li><a href="#">專案作品</a></li>
+          <li><a href="#">部落格</a></li>
+          <li><a href="#">與我聯絡</a></li>
+        </ul>
+
+        <button class="menu-btn" type="button" aria-label="開啟選單">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+            <path d="M3.3335 5.83333V5H16.6668V5.83333H3.3335ZM3.3335 15V14.1667H16.6668V15H3.3335ZM3.3335 10.4167V9.58333H16.6668V10.4167H3.3335Z" fill="#404040"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- 手機版展開選單 -->
+      <div class="mobile-menu">
+        <div class="mobile-menu-header">
+          <a href="#">
+            <img src="pic/logo.svg" alt="logo" class="logo">
+          </a>
+
+          <button class="close-btn" type="button" aria-label="關閉選單">×</button>
+        </div>
+
+        <ul class="mobile-menu-list">
+          <li><a href="#">服務項目</a></li>
+          <li><a href="#">專案作品</a></li>
+          <li><a href="#">部落格</a></li>
+          <li><a href="#">與我聯絡</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section1">
+      <!-- 桌機版裝飾 -->
+      <img class="decor desktop-decor decor-flower-left" src="pic/illus_03 (1).svg" alt="">
+      <img class="decor desktop-decor decor-line-left" src="pic/illus_04.svg" alt="">
+      <img class="decor desktop-decor decor-flower-bottom" src="pic/illus_03 (1).svg" alt="">
+      <img class="decor desktop-decor decor-line-bottom" src="pic/illus_05.svg" alt="">
+      <img class="decor desktop-decor decor-flower-right" src="pic/illus_03 (1).svg" alt="">
+      <img class="decor desktop-decor decor-block-left" src="pic/illus_01.svg" alt="">
+      <img class="decor desktop-decor decor-block-right" src="pic/illus_02.svg" alt="">
+
+      <!-- 手機版：圖片區裝飾 -->
+      <img class="decor mobile-decor mobile-block-left" src="pic/illus_01.svg" alt="">
+      <img class="decor mobile-decor mobile-block-right" src="pic/illus_02.svg" alt="">
+
+      <div class="container container1">
+        <div class="left">
+          <!-- 手機版：文字區裝飾，放在 left 裡面 -->
+          <img class="decor mobile-decor mobile-line" src="pic/illus_06.svg" alt="">
+          <img class="decor mobile-decor mobile-flower" src="pic/illus_03 (1).svg" alt="">
+
+          <div class="top display-title">Hello<br>I'm Nelson</div>
+
+          <div class="body paragraph-md">
+            <div>我是一個擁有 10 年經驗的UIUX設計師和前端工程師</div>
+            <div>喜歡把美學和程式結合，打造一個又一個精美的網頁設計！</div>
+          </div>
+
+          <ul class="bottom">
+            <li>
+              <a class="btn btn-dark contact-btn" href="#">與我聯絡</a>
+            </li>
+            <li>
+              <a class="btn btn-outline resume-btn" href="#">我的履歷</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="right">
+          <img src="pic/selfie.svg" alt="selfie">
+        </div>
+      </div>
+    </div>
+
+      <div class="section2">
+        <div class="container container2">
+          <div class="top2 display-title">
+            <div class="title heading-xs">服務項目</div>
+            SERVICES
+          </div>
+          <div class="list">
+            <div class="box">
+              <div class="frame">
+                <div class="framecontent heading-md">
+                  <div class="title heading-xs">GRAPHIC</div>
+                平面設計
+                </div>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="21" height="23.33" viewBox="0 0 18 20" fill="none">
+                    <path d="M4.1382 0.656097L4.76302 0L13.1227 8.38526L7.54605 14.0313L1.96965 8.36811L6.92145 3.44772L4.1382 0.656097ZM7.56337 4.09186L3.23145 8.40264H11.8609L7.56337 4.09186ZM13.9594 13.9141C13.6993 13.6531 13.5693 13.3321 13.5693 12.9513C13.5693 12.6817 13.6399 12.4155 13.7812 12.1528C13.9225 11.8901 14.0711 11.6412 14.227 11.4062C14.3389 11.2488 14.4525 11.0955 14.5679 10.9462C14.6832 10.7968 14.8004 10.6434 14.9193 10.486C15.0381 10.6434 15.1552 10.7968 15.2705 10.9462C15.3859 11.0955 15.4996 11.2488 15.6116 11.4062C15.7673 11.6412 15.9158 11.8901 16.0571 12.1528C16.1986 12.4155 16.2693 12.6817 16.2693 12.9513C16.2693 13.3321 16.1392 13.6531 15.8789 13.9141C15.6187 14.175 15.2988 14.3055 14.9193 14.3055C14.5397 14.3055 14.2197 14.175 13.9594 13.9141ZM0 20V18.1944H18V20H0Z" fill="#404040"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="boxbottom">
+                <p class="paragraph-md">從品牌識別到視覺傳達，用專業設計精準傳遞核心價值</p>
+                <a href="#" class="arrow">
+                  <svg width="24" height="24" viewBox="0 0 24 24">
+                    <g transform="translate(6 6)">
+                      <path d="M0.700852 12L0 11.2991L10.2616 1.01794H0.802647V0H12V11.1974H10.9821V1.73839L0.700852 12Z" fill="currentColor"/>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="frame">
+                <div class="framecontent heading-md">
+                  <div class="title heading-xs">WEBSITE</div>
+                網頁設計
+                </div>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M15.5 15.6923H18.6923V12.5H17.8077V14.8077H15.5V15.6923ZM5.30775 9.5H6.19225V7.19225H8.5V6.30775H5.30775V9.5ZM9 20V18H3V4H21V18H15V20H9ZM4 17H20V5H4V17Z" fill="#404040"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="boxbottom">
+                <p class="paragraph-md">美感易用並重，以 Figma 打造符合直覺的數位體驗</p>
+                <a href="#" class="arrow">
+                  <svg width="24" height="24" viewBox="0 0 24 24">
+                    <g transform="translate(6 6)">
+                      <path d="M0.700852 12L0 11.2991L10.2616 1.01794H0.802647V0H12V11.1974H10.9821V1.73839L0.700852 12Z" fill="currentColor"/>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="frame">
+                <div class="framecontent heading-md">
+                  <div class="title heading-xs">FRONTEND</div>
+                前端切版
+                </div>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" viewBox="0 0 18 14" fill="none">
+                    <path d="M0 14V0H18V14H0ZM1 13H12V9.1155H1V13ZM13 13H17V4.23075H13V13ZM1 8.1155H12V4.23075H1V8.1155Z" fill="#404040"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="boxbottom">
+                <p class="paragraph-md">精準轉譯設計稿細節，建構流暢穩定 RWD 響應式網頁</p>
+                <a href="#" class="arrow">
+                  <svg width="24" height="24" viewBox="0 0 24 24">
+                    <g transform="translate(6 6)">
+                      <path d="M0.700852 12L0 11.2991L10.2616 1.01794H0.802647V0H12V11.1974H10.9821V1.73839L0.700852 12Z" fill="currentColor"/>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="frame">
+                <div class="framecontent heading-md">
+                  <div class="title heading-xs">BACKEND</div>
+                後端開發
+                </div>
+                <div class="icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                    <path d="M0 16V0H16V16H0ZM1 4.998H15V1H1V4.998ZM1 10.002H15V5.998H1V10.002ZM1 15H15V11.002H1V15ZM2.76925 3.80375V2.1885H4.3845V3.80375H2.76925ZM2.76925 8.80775V7.19225H4.3845V8.80775H2.76925ZM2.76925 13.8115V12.1962H4.3845V13.8115H2.76925Z" fill="#404040"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="boxbottom">
+                <p class="paragraph-md">佈署穩定系統架構，串接 API 並確保數據處理安全</p>
+                <a href="#" class="arrow">
+                  <svg width="24" height="24" viewBox="0 0 24 24">
+                    <g transform="translate(6 6)">
+                      <path d="M0.700852 12L0 11.2991L10.2616 1.01794H0.802647V0H12V11.1974H10.9821V1.73839L0.700852 12Z" fill="currentColor"/>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          
+
+          </div>
+        </div>
+      </div>
+      
+      <div class="section3">
+        <div class="container container3">
+          <div class="container3-title display-title">
+            <p class="heading-xs">專案作品</p>
+            PROJECTS
+          </div>
+          <div class="container3-list">
+            <div class="project-card">
+              <img class="project-img-pc" src="pic\project-card-1.svg" alt="bcakground">
+              <img class="project-img-mobile" src="pic\project-cd1.svg" alt="project">
+              <div class="note">
+                <div class="date label-sm">Oct 16, 2025</div>
+                <div class="notetop paragraph-md">平面設計 · 網頁設計</div>
+                <div class="notebody heading-sm">品牌視覺與電商整合，多肉植物品牌電商建置</div>
+                <div class="notebottom paragraph-md">從品牌識別設計到 RWD 網站開發，打造療癒系植栽購物體驗</div>
+                <a  class="btn btn-dark notebutton" href="#">前往專案</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img class="project-img-pc" src="pic\project-card-2.svg" alt="bcakground">
+              <img class="project-img-mobile" src="pic\project-cd2.svg" alt="project">
+              <div class="note">
+                <div class="date label-sm">Oct 16, 2025</div>
+                <div class="notetop paragraph-md">平面設計 · 網頁設計 · 前端切版</div>
+                <div class="notebody heading-sm">數位產品 UI/UX 設計，個人化財務視覺化軟體</div>
+                <div class="notebottom paragraph-md">運用數據視覺化邏輯，將複雜的財務數據轉化為直覺的操作介面</div>
+                <a  class="btn btn-dark notebutton" href="#">前往專案</a>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <img class="project-img-pc" src="pic\project-card-3.svg" alt="bcakground">
+              <img class="project-img-mobile" src="pic\project-cd3.svg" alt="project">
+              <div class="note">
+                <div class="date label-sm">Oct 16, 2025</div>
+                <div class="notetop paragraph-md">前端切版 · 後端開發</div>
+                <div class="notebody heading-sm">品牌識別與包裝設計，法式甜點品牌視覺重塑</div>
+                <div class="notebottom paragraph-md">以溫暖、輕盈的視覺語言，精準定位高質感甜點市場的品牌形象</div>
+                <a  class="btn btn-dark notebutton" href="#">前往專案</a>
+              </div>
+            </div>
+          </div>
+          <a  class="btn btn-dark listbutton" href="#">探索更多</a>
+        </div>
+      </div>
+      
+      <div class="section4">
+        <div class="container section4-top">
+          <div class="topleft">
+            <div class="chinese heading-xs">部落格</div>
+            <div class="eng display-title">BLOGS</div>
+          </div>
+          <div class="topright">
+            <a class="btn btn-outline blog-more-btn" href="#">探索更多</a>
+          </div>
+          </div>
+        <div class="container container4">
+          <div class="card">
+            <img src="pic\card1.svg" alt="card1">
+            <div class="cardbottom">
+              <div class="card-title paragraph-md">UIUX 設計 · 設計規範 · 前端技術</div>
+              <div class="card-body heading-sm">10年職人手記：如何運用 Figma 與 Storybook 打造美感與邏輯兼具的企業級設計系統</div>
+              <div class="info">
+                <div class="left label-sm">Oct 16, 2022</div>
+                  <div class="right label-sm">
+                    <div class="data">
+                      <span class="material-symbols-outlined">visibility</span>
+                      <span>110 views</span>
+                    </div>
+                    <div class="data">
+                      <span class="material-symbols-outlined">share</span>
+                      <span>2 shares</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="pic\card2.svg" alt="card2">
+            <div class="cardbottom">
+              <div class="card-title paragraph-md">品牌設計 · 平面設計 · UIUX 設計</div>
+              <div class="card-body heading-sm">從平面識別到數位體驗：以「植感生活」為例，探討跨媒體品牌視覺在網頁上的精準轉譯</div>
+              <div class="info">
+                <div class="left label-sm">Oct 16, 2022</div>
+                  <div class="right label-sm">
+                    <div class="data">
+                      <span class="material-symbols-outlined">visibility</span>
+                      <span>110 views</span>
+                    </div>
+                    <div class="data">
+                      <span class="material-symbols-outlined">share</span>
+                      <span>2 shares</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="pic\card3.svg" alt="card3">
+            <div class="cardbottom">
+              <div class="card-title paragraph-md">前端技術 · 後端架構 · AI 趨勢應用</div>
+              <div class="card-body heading-sm">揭開金融 App 的設計密碼：如何優化 Open Bank API 的複雜數據呈現與後端串接安全性</div>
+              <div class="info">
+                <div class="left label-sm">Oct 16, 2022</div>
+                  <div class="right label-sm">
+                    <div class="data">
+                      <span class="material-symbols-outlined">visibility</span>
+                      <span>110 views</span>
+                    </div>
+                    <div class="data">
+                      <span class="material-symbols-outlined">share</span>
+                      <span>2 shares</span>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+
+
+        </div>
+        
+      </div>
+
+      <div class="subscription">
+          <div class="bg"><img src="pic\img_subscription_bg.svg" alt="background"></div>
+        <div class="container subcontent">
+          <div class="subleft">
+            <img src="pic\img_subscription.svg" alt="left">
+          </div>
+          <div class="subright">
+            <div class="subright-top">
+              <div class="top-ch heading-xs">電子報訂閱</div>
+              <div class="top-eng display-title">SUBSCRIPTION</div>
+            </div>
+            <div class="subright-body paragraph-md">你也在追求設計美感與技術落地的完美平衡嗎？作為資深設計師兼工程師，我深知跨領域協作的痛點。訂閱電子報，我將分享如何利用 AI 工具提升產能！</div>
+            <div class="form-field email">
+              <div class="emailaddress">電子信箱</div>
+              <a class="btn btn-light enter" href="#">送出</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="container footercontent">
+          <div class="footerleft">
+            <div class="footertop">
+              <div class="top-ch heading-xs">與我聯絡</div>
+              <div class="top-eng display-title">CONTACT</div>
+            <div class="footertext">
+              <div class="text paragraph-md">若有數位產品設計和開發相關問題</div>
+              <div class="text paragraph-md">歡迎填寫表單 或 直接與我聯絡！</div>
+            </div>
+            </div>
+            <div class="footerbottom">
+              <div class="footerbottom-contact">
+                  <a class="footericon" href="#" aria-label="Instagram">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path d="M12 4C9.829 4 9.556 4.01 8.703 4.048C7.85 4.088 7.269 4.222 6.76 4.42C6.22584 4.62033 5.74214 4.9354 5.343 5.343C4.9354 5.74214 4.62033 6.22584 4.42 6.76C4.222 7.268 4.087 7.85 4.048 8.7C4.01 9.555 4 9.827 4 12.001C4 14.173 4.01 14.445 4.048 15.298C4.088 16.15 4.222 16.731 4.42 17.24C4.625 17.766 4.898 18.212 5.343 18.657C5.787 19.102 6.233 19.376 6.759 19.58C7.269 19.778 7.849 19.913 8.701 19.952C9.555 19.99 9.827 20 12 20C14.173 20 14.444 19.99 15.298 19.952C16.149 19.912 16.732 19.778 17.241 19.58C17.7748 19.3795 18.2581 19.0645 18.657 18.657C19.102 18.212 19.375 17.766 19.58 17.24C19.777 16.731 19.912 16.15 19.952 15.298C19.99 14.445 20 14.173 20 12C20 9.827 19.99 9.555 19.952 8.701C19.912 7.85 19.777 7.268 19.58 6.76C19.3797 6.22584 19.0646 5.74214 18.657 5.343C18.2579 4.9354 17.7742 4.62033 17.24 4.42C16.73 4.222 16.148 4.087 15.297 4.048C14.443 4.01 14.172 4 11.998 4H12ZM11.283 5.442H12.001C14.137 5.442 14.39 5.449 15.233 5.488C16.013 5.523 16.437 5.654 16.719 5.763C17.092 5.908 17.359 6.082 17.639 6.362C17.919 6.642 18.092 6.908 18.237 7.282C18.347 7.563 18.477 7.987 18.512 8.767C18.551 9.61 18.559 9.863 18.559 11.998C18.559 14.133 18.551 14.387 18.512 15.23C18.477 16.01 18.346 16.433 18.237 16.715C18.1078 17.0619 17.9032 17.3758 17.638 17.634C17.358 17.914 17.092 18.087 16.718 18.232C16.438 18.342 16.014 18.472 15.233 18.508C14.39 18.546 14.137 18.555 12.001 18.555C9.865 18.555 9.611 18.546 8.768 18.508C7.988 18.472 7.565 18.342 7.283 18.232C6.93583 18.1033 6.6216 17.899 6.363 17.634C6.09727 17.3756 5.89233 17.0614 5.763 16.714C5.654 16.433 5.523 16.009 5.488 15.229C5.45 14.386 5.442 14.133 5.442 11.996C5.442 9.859 5.45 9.608 5.488 8.765C5.524 7.985 5.654 7.561 5.764 7.279C5.909 6.906 6.083 6.639 6.363 6.359C6.643 6.079 6.909 5.906 7.283 5.761C7.565 5.651 7.988 5.521 8.768 5.485C9.506 5.451 9.792 5.441 11.283 5.44V5.442ZM16.271 6.77C16.1449 6.77 16.0201 6.79483 15.9036 6.84308C15.7872 6.89132 15.6813 6.96203 15.5922 7.05118C15.503 7.14032 15.4323 7.24615 15.3841 7.36262C15.3358 7.4791 15.311 7.60393 15.311 7.73C15.311 7.85607 15.3358 7.9809 15.3841 8.09738C15.4323 8.21385 15.503 8.31968 15.5922 8.40882C15.6813 8.49797 15.7872 8.56868 15.9036 8.61692C16.0201 8.66517 16.1449 8.69 16.271 8.69C16.5256 8.69 16.7698 8.58886 16.9498 8.40882C17.1299 8.22879 17.231 7.98461 17.231 7.73C17.231 7.47539 17.1299 7.23121 16.9498 7.05118C16.7698 6.87114 16.5256 6.77 16.271 6.77ZM12.001 7.892C11.4561 7.8835 10.9149 7.98349 10.409 8.18614C9.90306 8.3888 9.44251 8.69007 9.05415 9.07242C8.66579 9.45478 8.35736 9.91057 8.14684 10.4133C7.93632 10.916 7.8279 11.4555 7.8279 12.0005C7.8279 12.5455 7.93632 13.085 8.14684 13.5877C8.35736 14.0904 8.66579 14.5462 9.05415 14.9286C9.44251 15.3109 9.90306 15.6122 10.409 15.8149C10.9149 16.0175 11.4561 16.1175 12.001 16.109C13.0795 16.0922 14.1082 15.6519 14.865 14.8833C15.6217 14.1146 16.0459 13.0792 16.0459 12.0005C16.0459 10.9218 15.6217 9.88641 14.865 9.11775C14.1082 8.34909 13.0795 7.90883 12.001 7.892ZM12.001 9.333C12.3512 9.333 12.698 9.40198 13.0216 9.53601C13.3452 9.67004 13.6392 9.86649 13.8869 10.1141C14.1345 10.3618 14.331 10.6558 14.465 10.9794C14.599 11.303 14.668 11.6498 14.668 12C14.668 12.3502 14.599 12.697 14.465 13.0206C14.331 13.3442 14.1345 13.6382 13.8869 13.8859C13.6392 14.1335 13.3452 14.33 13.0216 14.464C12.698 14.598 12.3512 14.667 12.001 14.667C11.2937 14.667 10.6153 14.386 10.1151 13.8859C9.61499 13.3857 9.334 12.7073 9.334 12C9.334 11.2927 9.61499 10.6143 10.1151 10.1141C10.6153 9.61399 11.2937 9.333 12.001 9.333Z" fill="white"/>
+                    </svg>
+                    <!-- Instagram svg -->
+                  </a>
+                  <a class="footericon" href="#" aria-label="LINE">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path d="M12 4C16.9624 4 21 7.24721 21 11.2393C21 12.8373 20.3756 14.2758 19.0706 15.6931C17.1829 17.8475 12.9607 20.4713 12 20.8728C11.0662 21.2631 11.1742 20.6531 11.217 20.4122L11.2204 20.3922L11.3486 19.6283C11.379 19.4008 11.4105 19.0473 11.3194 18.8221C11.2181 18.5734 10.8199 18.4441 10.5274 18.3816C6.20175 17.8162 3 14.8177 3 11.2393C3 7.24721 7.03875 4 12 4ZM8.64975 12.5708H6.93412V9.48413C6.93413 9.43818 6.91579 9.3941 6.88312 9.36151C6.85045 9.32892 6.8061 9.31046 6.75975 9.31017H6.1275C6.10445 9.31017 6.08163 9.31467 6.06034 9.32341C6.03905 9.33215 6.0197 9.34497 6.0034 9.36112C5.98711 9.37727 5.97418 9.39645 5.96536 9.41755C5.95654 9.43866 5.952 9.46128 5.952 9.48413V13.3714C5.952 13.4171 5.97112 13.4606 6.0015 13.4907V13.4918L6.00375 13.4941L6.006 13.4963C6.02201 13.5119 6.04101 13.5242 6.06187 13.5324C6.08274 13.5407 6.10505 13.5447 6.1275 13.5443H8.64975C8.7465 13.5443 8.82413 13.4662 8.82413 13.3703V12.7458C8.82427 12.723 8.81988 12.7003 8.8112 12.6792C8.80251 12.658 8.78971 12.6388 8.77352 12.6225C8.75733 12.6062 8.73806 12.5933 8.71683 12.5844C8.69559 12.5755 8.6728 12.5709 8.64975 12.5708ZM9.53963 9.31017C9.49308 9.31017 9.44844 9.3285 9.41553 9.36112C9.38262 9.39374 9.36413 9.43799 9.36413 9.48413V13.3714C9.36413 13.4673 9.44288 13.5443 9.53963 13.5443H10.1719C10.2686 13.5443 10.3463 13.4662 10.3463 13.3714V9.48413C10.3463 9.43818 10.3279 9.3941 10.2952 9.36151C10.2626 9.32892 10.2182 9.31046 10.1719 9.31017H9.53963ZM13.8855 9.31017C13.839 9.31017 13.7943 9.3285 13.7614 9.36112C13.7285 9.39374 13.71 9.43799 13.71 9.48413V11.7924L11.9134 9.38823L11.8988 9.3715L11.8875 9.35923L11.8841 9.35589L11.8717 9.34585L11.865 9.34139L11.8616 9.33916L11.856 9.33581L11.847 9.33024H11.8448L11.8414 9.32801L11.8301 9.32355L11.8256 9.32132L11.8144 9.31797H11.8121L11.8088 9.31686L11.7986 9.31463H11.7919L11.7885 9.31351H11.784L11.7818 9.3124H11.136C11.0896 9.3124 11.0452 9.33057 11.0123 9.36295C10.9794 9.39534 10.9608 9.4393 10.9605 9.48524V13.3725C10.9605 13.4684 11.0392 13.5454 11.136 13.5454H11.766C11.8639 13.5454 11.9426 13.4673 11.9426 13.3725V11.0642L13.7426 13.4729C13.7552 13.4889 13.77 13.5032 13.7865 13.5153L13.7876 13.5164L13.7989 13.5231L13.8034 13.5253L13.8124 13.5298L13.8202 13.5331L13.8259 13.5353L13.8371 13.5387H13.8405C13.8552 13.5424 13.8703 13.5447 13.8855 13.5454H14.5155C14.6134 13.5454 14.6921 13.4673 14.6921 13.3725V9.48413C14.6921 9.43799 14.6736 9.39374 14.6407 9.36112C14.6078 9.3285 14.5632 9.31017 14.5166 9.31017H13.8855ZM18.1774 10.1097V9.48524C18.1775 9.4624 18.1731 9.43975 18.1644 9.41858C18.1558 9.39742 18.143 9.37816 18.1268 9.36191C18.1106 9.34565 18.0913 9.33271 18.0701 9.32384C18.0488 9.31496 18.026 9.31031 18.003 9.31017H15.4808C15.4355 9.31079 15.3921 9.32831 15.3593 9.35923H15.3581L15.357 9.36146L15.3548 9.36481C15.3238 9.39707 15.3062 9.43963 15.3053 9.48413V13.3714C15.3053 13.4171 15.3244 13.4606 15.3548 13.4907L15.357 13.4941L15.3593 13.4963C15.3923 13.5268 15.4356 13.5439 15.4808 13.5443H18.003C18.0998 13.5443 18.1774 13.4662 18.1774 13.3703V12.7458C18.1775 12.723 18.1731 12.7003 18.1644 12.6792C18.1558 12.658 18.143 12.6388 18.1268 12.6225C18.1106 12.6062 18.0913 12.5933 18.0701 12.5844C18.0488 12.5755 18.026 12.5709 18.003 12.5708H16.2863V11.914H18.0019C18.0986 11.914 18.1762 11.8359 18.1762 11.74V11.1155C18.1764 11.0927 18.172 11.07 18.1633 11.0489C18.1546 11.0277 18.1418 11.0085 18.1256 10.9922C18.1095 10.9759 18.0902 10.963 18.069 10.9541C18.0477 10.9453 18.0249 10.9406 18.0019 10.9405H16.2863V10.2837H18.0019C18.0986 10.2837 18.1762 10.2056 18.1762 10.1097H18.1774Z" fill="white"/>
+                    </svg>
+                    <!-- LINE svg -->
+                  </a>
+                  <a class="footericon" href="#" aria-label="LinkedIn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                      <path d="M4 5.146C4 4.513 4.526 4 5.175 4H18.825C19.474 4 20 4.513 20 5.146V18.854C20 19.487 19.474 20 18.825 20H5.175C4.526 20 4 19.487 4 18.854V5.146ZM8.943 17.394V10.169H6.542V17.394H8.943ZM7.743 9.182C8.58 9.182 9.101 8.628 9.101 7.934C9.086 7.225 8.581 6.686 7.759 6.686C6.937 6.686 6.4 7.226 6.4 7.934C6.4 8.628 6.921 9.182 7.727 9.182H7.743ZM12.651 17.394V13.359C12.651 13.143 12.667 12.927 12.731 12.773C12.904 12.342 13.299 11.895 13.963 11.895C14.832 11.895 15.179 12.557 15.179 13.529V17.394H17.58V13.25C17.58 11.03 16.396 9.998 14.816 9.998C13.542 9.998 12.971 10.698 12.651 11.191V11.216H12.635L12.651 11.191V10.169H10.251C10.281 10.847 10.251 17.394 10.251 17.394H12.651Z" fill="white"/>
+                    </svg>
+                    <!-- LinkedIn svg -->
+                  </a>
+            </div>
+            <div class="footeremail">
+              <div class="emailicon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+<path d="M9 0L18 5.39816V18H0V5.39816L9 0ZM9 10.5707L16.8 5.87045L9 1.17025L1.2 5.87045L9 10.5707ZM9 11.7409L1 6.92799V16.9892H17V6.92799L9 11.7409Z" fill="white"/>
+</svg> 
+              </div>
+            <div class="text paragraph-md">service@hexschool.com</div>
+            </div>
+          </div>
+        </div>
+  
+       <div class="footerright">
+            <div class="footerright-top">
+              <div class="form-field name">姓名</div>
+              <div class="form-field phone">手機號碼</div>
+            </div>
+            <div class="form-field footer-email">電子信箱</div>
+            <div class="form-field remark">備註</div>
+            <a class="btn btn-light footerenter" href="#">送出</a>
+          </div>
+      </div>
+  </div>
+    </div>
+  </div>
+
+<script>
+  const menuBtn = document.querySelector('.menu-btn');
+  const closeBtn = document.querySelector('.close-btn');
+  const mobileMenu = document.querySelector('.mobile-menu');
+
+  menuBtn.addEventListener('click', function () {
+    mobileMenu.classList.add('is-open');
+  });
+
+  closeBtn.addEventListener('click', function () {
+    mobileMenu.classList.remove('is-open');
+  });
+</script>
+</body>
+</html>
